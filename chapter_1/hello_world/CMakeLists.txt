@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.12)
 # 2.0 This command sets the project name to chapter_1 and
 #     specifies that the project is written in C.
-project(chapter_1 C)
+project(hello_world C)
 # 3.0 This command sets the C standard to C11. 
 #     This is the version of the C language that will be used to compile the project.
 set(CMAKE_C_STANDARD 11)

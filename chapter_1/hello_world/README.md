@@ -4,7 +4,7 @@ This is the first chapter of the book. The code compiled is a hello world progra
 
 ## Create the project
 
-1.Create a new project in the folder `chapter_1`
+1.Create a new project `hello_world` in the folder `chapter_1`
 
 2.Add a new file `hello.c` in a folder called src with the following content:
 
