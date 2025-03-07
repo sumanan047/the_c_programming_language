@@ -1,0 +1,23 @@
+# Compiled object files
+*.o
+
+# Executables
+a.out
+
+# Compiled dynamic libraries
+*.so
+
+# Compiled static libraries
+*.a
+
+# Build directory
+build/
+
+# Dependency files
+*.d
+
+# Editor backup files
+*~
+
+# Visual Studio Code specific files
+.vscode/
