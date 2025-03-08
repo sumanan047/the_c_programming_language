@@ -58,7 +58,7 @@ make
 
 ```bash
 ./temperature
-``` 
+```
 
 6.The project is now compiled and executed successfully.
 
