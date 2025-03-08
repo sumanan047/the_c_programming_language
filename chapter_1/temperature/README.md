@@ -57,16 +57,10 @@ make
 5.This produces the executable file `hello` in the build directory. The name of the executable is same as what was suggested by the Cmake *add_executable* command. Run the following command to execute the program:
 
 ```bash
-./hello
+./temperature
 ``` 
 
-6.The output will be:
-
-```bash
-Hello, World!
-```
-
-7.The project is now compiled and executed successfully.
+6.The project is now compiled and executed successfully.
 
 ## Conclusion
 
