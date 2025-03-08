@@ -1,10 +1,3 @@
-/**
- * This function converts temperature from Fahrenheit to Celsius.
- * It takes in a float parameter and returns a float.
- * 
- * @param parameter The input parameter for the function.
- * @return The result of the function.
- */
 #include <stdio.h>
 #include <ctype.h>
 

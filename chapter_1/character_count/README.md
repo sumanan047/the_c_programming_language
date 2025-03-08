@@ -4,38 +4,25 @@ This is the first chapter of the book. The code compiled is a hello world progra
 
 ## Create the project
 
-1.Create a new project `temperature` in the folder `chapter_1`
+1.Create a new project `character_count` in the folder `chapter_1`
 
-2.Add a new file `temp.c` in a folder called src with the following content:
+2.Add a new file `character_count.c` in a folder called src with the following content:
 
 ```c
 #include <stdio.h>
 #include <ctype.h>
 
 int main() {
-    float fahr, celsius;
-    char scale; // what scale of temperature is being used
-    float lower, upper, step;
+    int character_count = 0;
+    int c;
 
-    printf("Enter the temperature scale (F or C): ");
-    scanf("%c", &scale);
-    // convert to lowercase
-    scale = toupper(scale);
-    printf("Enter temperature value: ");
-    scanf("%f", &fahr);
-    
-    if (scale == 'F') {
-        celsius = (5.0 / 9.0) * (fahr - 32.0);
-        printf("Temperature in Celsius: %f\n", celsius);
-    } else if (scale == 'C') {
-        fahr = (celsius * 9.0 / 5.0) + 32.0;
-        printf("Temperature in Fahrenheit: %f\n", fahr);
-    } else {
-        printf("Invalid temperature scale\n");
+    while((c = getchar()) != EOF) {
+            ++character_count;
     }
-
+    printf("Character count: %d\n", character_count);
     return 0;
 }
+
 ```
 
 3.Add another folder called include for any header files you may need.
